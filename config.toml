@@ -1,0 +1,4 @@
+baseURL = "https://sonjaeisenreich.github.io/"
+languageCode = "en-us"
+title = "Sonja Eisenreich"
+theme = "airspace"
