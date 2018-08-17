@@ -5,6 +5,10 @@ go:
 
 sudo: false
 
+branches:
+  only:
+  - src
+
 script:
   - rm -rf public
   - ./bin/hugo -v

@@ -2,3 +2,31 @@ baseURL = "https://sonjaeisenreich.github.io/"
 languageCode = "en-us"
 title = "Sonja Eisenreich"
 theme = "airspace"
+
+[menu]
+  [[menu.header]]
+  weight = 5
+  name = "Impressum"
+  url = "/impressum"
+
+[params]
+  [params.slider]
+    enable = true
+    title = "Zu jedem Anlass die passende Musik"
+    subtitle = "Gerne bereichere ich Ihre Feier mit meiner Musik!"
+
+  [params.wrapper]
+    enable = true
+    title = "Über mich"
+    italic = "Die singende Menschenstimme ist der klingende Atem Gottes"
+    paragraph = "Mein Leben ist die Bühne! Dort kann ich mich meiner Leidenschaft, der Musik, voll hingeben. Besonders freut mich, dass ich auch die Zuhörerschaft damit begeistern kann. Seit Jahren trete ich häufig solistisch auch auf großen Bühnen auf und spüre jedes Mal, wie mein Herz aufgeht."
+
+  [params.feature]
+    enable = true
+    title = "Mein Repertoire"
+    content = "Ich habe eine klassische Gesangsausbildung und singe dadurch gerne und viel Oper und Operette. Schon während meiner Ausbildung habe ich aber gemerkt, dass mir auch andere Musikrichtungen wie Jazz oder Musicals sehr gefallen. Abgerundet mit modernen Hits habe ich ein sehr vielfältiges Repertoire mit Songs von Whitney Houston, Norah Jones, Leonard Cohen und vielen anderen, Jazzstandards wie How High the Moon, Girl from Ipanema, Take the A-Train sowie Musical- und Operettenstücke aus Das Phantom der Oper, Die Lustige Witwe, Porgy and Bess und vielen anderen."
+
+  [params.call]
+    enable = true
+    title = "Kontakt."
+    paragraph = "Bitte kontaktieren Sie mich telefonisch unter +49 1573 7908747 oder per E-Mail unter SonjaEisenreich@hotmail.de."

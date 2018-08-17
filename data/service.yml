@@ -1,0 +1,31 @@
+enable: true
+
+#title = "Buchen Sie mich für Ihre Veranstaltung"
+#content = "Ich singe gerne bei Ihrer nächsten Veranstaltung. Im Repertoire bin ich flexibel mit aktuellen Hits und Musicals, aber auch Jazz und klassischen Arien. Normalerweise singe ich zu Playbacks oder a capella, aber wenn Sie möchten, kann ich auch eine Liveband organisieren. Meine Lautsprecheranlage können Sie auch gerne für Musikeinspielungen verwenden. Mein Preis variiert nach Anzahl der Stücke, meinem Fahrtweg und der Dauer der Veranstaltung; kontaktieren Sie mich bei Interesse einfach unter <b>+49 1573 7908747</b> oder per E-Mail an <b>SonjaEisenreich@hotmail.de</b>"
+title: Was ich biete
+content:
+
+  - icon: ion-volume-high
+    name: Musikanlage
+    text: >
+      Meine Musikanlage ist auch für größere Veranstaltungen ausreichend. Gerne können Sie während der Veranstaltung eigene Musik einspielen.
+
+  - icon: ion-music-note
+    name: Repertoire
+    text: >
+      Mein Repertoire ist sehr vielseitig und umfasst aktuelle Hits, Jazzstandards und Musicals, aber auch Stücke aus Opern oder Operetten.
+
+  - icon: ion-arrow-right-b
+    name: Begleitung
+    text: >
+      Normalerweise singe ich zu meinen Playbacks. Wenn Sie wünschen, kann ich aber auch eine Liveband organisieren.
+
+  - icon: ion-social-euro-outline
+    name: Preis
+    text: >
+      Mein Preis variiert nach Anzahl der Stücke, meinem Fahrtweg und der Dauer der Veranstaltung. Bitte kontaktieren Sie mich für ein individuelles Angebot.
+
+  - icon: ion-ios-location
+    name: Ort
+    text: >
+      Ich bin gerne bereit, ein paar Kilometer bis zu Ihrer Veranstaltung zu fahren. Zu Hause bin ich mitten im Herzen Baden-Württembergs
