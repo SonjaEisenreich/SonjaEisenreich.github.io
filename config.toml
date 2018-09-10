@@ -4,9 +4,9 @@ title = "Sonja Eisenreich"
 theme = "airspace"
 
 [menu]
-  [[menu.header]]
+  [[menu.footer]]
   weight = 5
-  name = "Impressum"
+  name = "Impressum und Datenschutz"
   url = "/impressum"
 
 [params]
