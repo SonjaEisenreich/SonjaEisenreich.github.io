@@ -14,16 +14,13 @@ theme = "airspace"
     enable = true
     title = "Sonja Maria Eisenreich"
     subtitle = "Zu jedem Anlass die passende Musik"
-
+	
   [params.wrapper]
     enable = true
     title = "Meine Musik für Ihre Veranstaltung"
     italic = "Soll auch Ihre Feier unvergesslich werden? Dann sind Sie hier genau richtig!"
     paragraph = "Seit einigen Jahren bereichere ich diverse Feiern mit meiner Stimme, meinem Saxophon- oder Klarinettenspiel. Mein großes Repertoire, das von klassischer Musik über Jazz bis hin zu Musical und Pop reicht, erweitere ich für Ihr Programm gerne um Ihr Lieblingslied. Hauptsächlich spiele und singe ich zu meinen Playbacks, auf Wunsch organisiere ich aber auch gerne einen Pianisten oder Organisten. Mit meiner Musikanlage kann ich bei Bedarf auch große Räume ausfüllen."
-    #title = "Über mich"
-    #italic = "Die singende Menschenstimme ist der klingende Atem Gottes"
-    #paragraph = "Mein Leben ist die Bühne! Dort kann ich mich meiner Leidenschaft, der Musik, voll hingeben. Besonders freut mich, dass ich auch die Zuhörerschaft damit begeistern kann. Seit Jahren trete ich häufig solistisch auch auf großen Bühnen auf und spüre jedes Mal, wie mein Herz aufgeht."
-
+    
   [params.feature]
     enable = true
     title = "Mein Repertoire"
