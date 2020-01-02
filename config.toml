@@ -17,14 +17,14 @@ theme = "airspace"
 	
   [params.wrapper]
     enable = true
-    title = "Meine Musik für Ihre Veranstaltung"
-    italic = "Soll auch Ihre Feier unvergesslich werden? Dann sind Sie hier genau richtig!"
-    paragraph = "Seit einigen Jahren bereichere ich diverse Feiern mit meiner Stimme, meinem Saxophon- oder Klarinettenspiel. Mein großes Repertoire, das von klassischer Musik über Jazz bis hin zu Musical und Pop reicht, erweitere ich für Ihr Programm gerne um Ihr Lieblingslied. Hauptsächlich spiele und singe ich zu meinen Playbacks, auf Wunsch organisiere ich aber auch gerne einen Pianisten oder Organisten. Mit meiner Musikanlage kann ich bei Bedarf auch große Räume ausfüllen."
+    title = "Die passende Musik für Ihre Veranstaltung"
+    italic = "Sie planen ein Event, sind aber noch auf der Suche nach der passenden Musik? Dann sind Sie hier genau richtig!"
+    paragraph = "Ich biete Ihnen ein buntes Unterhaltungsprogramm, das auf Ihre Wünsche abgestimmt wird. Ob Sie nun Musical, Jazz, Filmmusik, klassisches oder doch lieber Schlager hören wollen: fast alles ist möglich. Für ihre Feier kann ich Ihnen, je nach Wunsch, einen Organisten (für Trauungen, Taufen, etc.) einen Pianisten oder eine Jazzcombo organisieren. Falls Sie allerdings kein Interesse an einem weiteren Musiker haben, singe ich auch gerne zu meinen Playbacks. Meine Technik reicht für kleine bis mittelgroße Räume aus. Findet Ihre Veranstaltung in einem Saal statt, so wäre es aber auch möglich, die Hausinterne Anlage (falls vorhanden) zu nutzen, oder weiteres Equipment zu besorgen."
     
   [params.feature]
     enable = true
     title = "Mein Repertoire"
-    content = "Ich habe eine klassische Gesangsausbildung und singe dadurch gerne und viel Oper und Operette. Schon während meiner Ausbildung habe ich aber gemerkt, dass mir auch andere Musikrichtungen wie Jazz oder Musicals sehr gefallen. Abgerundet mit modernen Hits habe ich ein sehr vielfältiges Repertoire mit Songs von Whitney Houston, Norah Jones, Leonard Cohen und vielen anderen, Jazzstandards wie How High the Moon, Girl from Ipanema, Take the A-Train sowie Musical- und Operettenstücke aus Das Phantom der Oper, Die Lustige Witwe, Porgy and Bess und vielen anderen."
+    content = "Seit 2012 nehme ich Gesangsstunden bei einer ehemaligen Opernsängerin und habe daher eine klassische Gesangsausbildung genossen. Mein Repertoire erstreckt sich über diverse Musikrichtungen, von Operettenliedern über Musicals und Pop bis hin zu Jazzstandards. In meinem Repertoire habe ich zum Beispiel Stücke von Whitney Houston, Nora Jones, Leonard Cohen, George Gershwin und vielen anderen. Gerne erarbeite ich mir auch für Sie ihr Lieblingslied."
 
   [params.call]
     enable = true
