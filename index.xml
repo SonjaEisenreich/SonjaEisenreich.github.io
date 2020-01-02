@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sonja Maria Eisenreich</title>
+    <link>https://sonjaeisenreich.github.io/</link>
+    <description>Recent content on Sonja Maria Eisenreich</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://sonjaeisenreich.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Impressum und Datenschutz</title>
+      <link>https://sonjaeisenreich.github.io/impressum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sonjaeisenreich.github.io/impressum/</guid>
+      <description>ImpressumAngaben gemäß § 5 TMG
+Sonja Eisenreich Breuningsweilerstraße 58
+71364 Winnenden  Vertreten durch: 
+Sonja Eisenreich
+Kontakt: Telefon: %2B49 1573-7908747
+E-Mail: sonjaeisenreich@hotmail.de
+Haftungsausschluss: 
+Haftung für Inhalte
+Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.</description>
+    </item>
+    
+    <item>
+      <title>Über mich</title>
+      <link>https://sonjaeisenreich.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sonjaeisenreich.github.io/about/</guid>
+      <description>Über mich Im Jahre 1997 erblickte ich das Licht der Welt. Seitdem lebe ich für die Musik: Ich liebe es, die Menschen mit meiner Stimme zu berühren und ihnen den Tag zu versüßen.
+Schon im Kindesalter konnte ich mich gesanglich im Kinderchor, bei Kindermusicals und später auch im Schulchor als Solistin austoben. Mit 15 Jahren begann ich, mit professionellem Gesangsunterricht meine Stimme auszubilden.
+Mittlerweile bin ich mit vielen Ensembles unterwegs, darunter die Band &amp;ldquo;Lichtblick&amp;rdquo;, mit welcher wir Gottesdienste begleiten und das Jazzquartett &amp;ldquo;Stimme und Gedöns&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>
