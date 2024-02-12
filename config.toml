@@ -17,7 +17,7 @@ theme = "airspace"
 	
   [params.wrapper]
     enable = true
-    title = "Mein Angebot"
+    title = "Mein Angebot für Sie"
     italic = "Sie planen ein Event, sind aber noch auf der Suche nach der passenden Musik? Dann sind Sie hier genau richtig!"
     paragraph = "Ich biete Ihnen ein buntes Unterhaltungsprogramm, das auf Ihre Wünsche abgestimmt wird. Ob Sie nun Musical, Jazz, Filmmusik, klassisches oder doch lieber Schlager hören wollen: fast alles ist möglich. Immer mit dabei sind meine Playbacks. Gerne singe ich aber auch mit Ihrem Organisten/ Ihrer Organistin oder anderen Musiker:innen auf Ihrer Feier." 
 #Für Ihre Feier kann ich Ihnen, je nach Wunsch, einen Organisten (für Trauungen, Taufen, etc.) einen Pianisten oder eine Jazzcombo organisieren. Falls Sie allerdings kein Interesse an einem #weiteren Musiker haben, singe ich auch gerne zu meinen Playbacks. Meine Technik reicht für kleine bis mittelgroße Räume aus. Findet Ihre Veranstaltung in einem Saal statt, so wäre es aber #auch möglich, die Hausinterne Anlage (falls vorhanden) zu nutzen, oder weiteres Equipment zu besorgen."
