@@ -17,16 +17,21 @@ theme = "airspace"
 	
   [params.wrapper]
     enable = true
-    title = "Die passende Musik für Ihre Veranstaltung"
+    title = "Mein Angebot"
     italic = "Sie planen ein Event, sind aber noch auf der Suche nach der passenden Musik? Dann sind Sie hier genau richtig!"
-    paragraph = "Ich biete Ihnen ein buntes Unterhaltungsprogramm, das auf Ihre Wünsche abgestimmt wird. Ob Sie nun Musical, Jazz, Filmmusik, klassisches oder doch lieber Schlager hören wollen: fast alles ist möglich. Für ihre Feier kann ich Ihnen, je nach Wunsch, einen Organisten (für Trauungen, Taufen, etc.) einen Pianisten oder eine Jazzcombo organisieren. Falls Sie allerdings kein Interesse an einem weiteren Musiker haben, singe ich auch gerne zu meinen Playbacks. Meine Technik reicht für kleine bis mittelgroße Räume aus. Findet Ihre Veranstaltung in einem Saal statt, so wäre es aber auch möglich, die Hausinterne Anlage (falls vorhanden) zu nutzen, oder weiteres Equipment zu besorgen."
+    paragraph = "Ich biete Ihnen ein buntes Unterhaltungsprogramm, das auf Ihre Wünsche abgestimmt wird. Ob Sie nun Musical, Jazz, Filmmusik, klassisches oder doch lieber Schlager hören wollen: fast alles ist möglich. Immer mit dabei sind meine Playbacks. Gerne singe ich aber auch mit Ihrem Organisten/ Ihrer Organistin oder anderen Musiker:innen auf Ihrer Feier." 
+#Für Ihre Feier kann ich Ihnen, je nach Wunsch, einen Organisten (für Trauungen, Taufen, etc.) einen Pianisten oder eine Jazzcombo organisieren. Falls Sie allerdings kein Interesse an einem #weiteren Musiker haben, singe ich auch gerne zu meinen Playbacks. Meine Technik reicht für kleine bis mittelgroße Räume aus. Findet Ihre Veranstaltung in einem Saal statt, so wäre es aber #auch möglich, die Hausinterne Anlage (falls vorhanden) zu nutzen, oder weiteres Equipment zu besorgen."
     
   [params.feature]
     enable = true
-    title = "Mein Repertoire"
-    content = "Seit 2012 nehme ich Gesangsstunden bei einer ehemaligen Opernsängerin und habe daher eine klassische Gesangsausbildung genossen. Mein Repertoire erstreckt sich über diverse Musikrichtungen, von Operettenliedern über Musicals und Pop bis hin zu Jazzstandards. In meinem Repertoire habe ich zum Beispiel Stücke von Whitney Houston, Nora Jones, Leonard Cohen, George Gershwin und vielen anderen. Gerne erarbeite ich mir auch für Sie ihr Lieblingslied."
+    title = "Über mich"
+    content = "
+Mein Name ist Sonja Maria Eisenreich. Ich bin 27 Jahre alt und lebe zusammen mit meinem Mann und zwei kleinen Kaninchen im schönen Remstal. Meine Liebe zur Musik entdeckte ich schon in frühen Jahren und stand, seit ich ein kleines Mädchen war, regelmäßig und mit großer Freude auf der Bühne. mit 15 begann ich, meine Stimme klassisch ausbilden zu lassen. Nach und nach entdeckte ich meine Leidenschaft für diverse Musikrichtungen. Mein Repertoire erstreckt sich deshalb von Musicals über klassisches und Pop bis hin zu Jazzstandards."
+
+
+#Seit 2012 nehme ich Gesangsstunden bei einer ehemaligen Opernsängerin und habe daher eine klassische Gesangsausbildung genossen. Mein Repertoire erstreckt sich über diverse #Musikrichtungen, von Operettenliedern über Musicals und Pop bis hin zu Jazzstandards. In meinem Repertoire habe ich zum Beispiel Stücke von Whitney Houston, Nora Jones, Leonard Cohen, #George Gershwin und vielen anderen. Gerne erarbeite ich mir auch für Sie ihr Lieblingslied."
 
   [params.call]
     enable = true
     title = "Kontakt."
-    paragraph = "Bitte kontaktieren Sie mich telefonisch unter 01573 7908747 oder per E-Mail unter SonjaEisenreich@hotmail.de."
+    paragraph = "Bitte kontaktieren Sie mich telefonisch unter 01573 7908747 oder per E-Mail unter Sonja-maria@eisenreichs.de."
