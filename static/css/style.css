@@ -1,0 +1,18 @@
+.menu {
+    position: absolute;
+    margin-top: 0%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    padding: 1ex 1em;
+    color: #d9d9d9;
+    text-shadow: 1px 2px 4px #121212, 0 0 1ex #121212;
+}
+
+.menu-item:hover {
+    color: #121212;
+    text-shadow: 1px 2px 4px #121212, 0 0 1ex #d9d9d9;
+}

@@ -1,5 +1,5 @@
 baseURL = "https://sonjaeisenreich.github.io/"
-languageCode = "en-us"
+languageCode = "de-de"
 title = "Sonja Maria Eisenreich"
 theme = "hugo-split-theme"
 
@@ -9,13 +9,30 @@ theme = "hugo-split-theme"
   name = "Impressum und Datenschutz"
   url = "/impressum"
 
+  [[menu.main]]
+  weight = 5
+  name = "Bildergalerie"
+  url = "/about/Bildergalerie"
+
+  [[menu.main]]
+  weight = 5
+  name = "Events"
+  url = "/venues"
+
+  [[menu.main]]
+  weight = 5
+  name = "Hörproben"
+  url = "/about/Hörproben"
+
 [params]
 
   # Metadata for search engines and social sharing
-  author = "Jenny Jones"
+  author = "Sonja Maria Eisenreich"
   description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
   shareImage = "images/social.jpg"
   twitterHandle = "onepagelove"
+
+  custom.css.enable = true
 
   # Favicon
   favicon = "favicon.ico"
