@@ -3,26 +3,6 @@ languageCode = "de-de"
 title = "Sonja Maria Eisenreich"
 theme = "hugo-split-theme"
 
-[menu]
-  [[menu.footer]]
-  weight = 5
-  name = "Impressum und Datenschutz"
-  url = "/impressum"
-
-  [[menu.main]]
-  weight = 5
-  name = "Bildergalerie"
-  url = "/about/Bildergalerie"
-
-  [[menu.main]]
-  weight = 5
-  name = "Events"
-  url = "/venues"
-
-  [[menu.main]]
-  weight = 5
-  name = "Hörproben"
-  url = "/about/Hörproben"
 
 [params]
 
@@ -36,6 +16,10 @@ theme = "hugo-split-theme"
 
   # Favicon
   favicon = "favicon.ico"
+
+  [params.menu]
+    color1 = "#0B1C2F"
+    color2 = "#d9d9d9"
 
   # Section - Visual
   [params.visual]
