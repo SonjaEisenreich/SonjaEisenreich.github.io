@@ -1,0 +1,64 @@
+// Containers and layout
+.hero-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 420px;
+  background-image: url('/img/hero.webp');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  clip-path: url("#wave");
+  box-shadow: inset 0 -40px 80px -20px rgb(0, 0, 0);
+  padding: 0 calc((100% - #{$max-content-width})/2);
+  margin-bottom: -40px;
+}
+
+.hero-overlay {
+  width: 50%;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#content {
+  background-color: $background-color;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.content-element {
+  display: flex;
+  align-items: center;
+
+  div {
+    padding: 40px;
+  }
+}
+
+.hero-inner {
+  text-shadow: $background-color 0px 0px 30px;
+}
+
+article > * {
+  max-width: $max-content-width;
+  /* center the article horizontally within its parent (.content) */
+  margin: 0 auto;
+}
+
+.rule {
+  width: 100%;
+  max-width: unset;
+  height: 1px;
+  background: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.12) 15%, rgba(0,0,0,0.12) 85%, transparent 100%);
+}
+
+.dark-section {
+  background: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.04) 20%, rgba(0,0,0,0.04) 80%, transparent 100%);
+  max-width: unset;
+  > * {
+    max-width: $max-content-width;
+    margin: 0 auto;
+  }
+}

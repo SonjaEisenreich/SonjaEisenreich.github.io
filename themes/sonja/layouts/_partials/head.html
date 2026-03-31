@@ -1,0 +1,34 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+{{ with resources.Get "scss/main.scss" }}
+    {{ $opts := dict
+        "enableSourceMap" hugo.IsDevelopment
+        "outputStyle" (cond hugo.IsDevelopment "expanded" "compressed")
+        "targetPath" "css/main.css"
+        "vars" site.Params.styles
+    }}
+    {{ with . | toCSS $opts }}
+        {{ if hugo.IsDevelopment }}
+            <link rel="stylesheet" href="{{ .RelPermalink }}">
+        {{ else }}
+            {{ with . | fingerprint }}
+                <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+
+
+<svg width="0" height="0" style="position: absolute">
+    <clipPath id="wave" clipPathUnits="objectBoundingBox">
+        <path d="
+      M0,0
+      H1
+      V0.95
+      C0.8,1 0.6,1 0.4,0.95
+      C0.2,0.9 0,0.9 0,0.9
+      Z" />
+    </clipPath>
+</svg>

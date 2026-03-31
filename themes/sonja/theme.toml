@@ -1,0 +1,7 @@
+name = "sonja"
+license = "MIT"
+title = "Sonja"
+description = "A Hugo theme for event singer / solo musician landing pages"
+tags = ["wedding", "music", "landing"]
+author = "Tobias Eisenreich"
+min_version = "0.159.0"
