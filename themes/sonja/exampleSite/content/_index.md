@@ -6,9 +6,29 @@ title: "Start"
 
 # Herzlich willkommen!
 
-Ich bin Sonja. Ich singe leidenschaftlich gerne, und freue mich, Ihre Hochzeit zu einem unvergesslichen Erlebnis zu machen. Auf dieser Seite finden Sie Informationen über mich, meine Musik und wie ich Ihre Hochzeit mit meiner Stimme bereichern kann.
+Ich bin Sonja, Sängerin aus Leidenschaft! Für mich ist Musik die schönste Sprache der Welt und eine wundervolle Art, Emotionen auszudrücken. Deshalb begleite ich seit Jahren mit viel Freude Feste wie Hochzeiten, Taufen, oder auch Vereinsfeiern.
+Lassen Sie uns gemeinsam einen musikalischen Rahmen für Ihre Feier schaffen und ihrem Fest eine ganz persönliche Note geben.
+Ich freue mich auf Ihre Anfrage!
 
 {{< /image-aside >}}
+
+{{< dark-section >}}
+{{< image-aside src="/img/collage.webp" alt="Cover Image" reverse=true imgWidth="55%">}}
+
+## Für jeden Anlass die passende Musik
+
+Hochzeit, Taufe, Geburtstag, Vereinsfeier
+
+{{< /image-aside >}}
+{{< /dark-section >}}
+{{< image-aside src="/img/church.webp" alt="Cover Image" >}}
+
+# Hörproben
+
+Hier können Sie sich einen ersten Eindruck von meiner Stimme machen.
+
+{{< /image-aside >}}
+
 
 {{< dark-section >}}
 {{< image-aside src="/img/collage.webp" alt="Cover Image" reverse=true imgWidth="55%">}}
@@ -22,3 +42,34 @@ Ich bin Sonja. Ich singe leidenschaftlich gerne, und freue mich, Ihre Hochzeit z
 
 {{< /image-aside >}}
 {{< /dark-section >}}
+{{< image-aside src="/img/church.webp" alt="Cover Image" >}}
+
+## Repertoire
+
+Mein Repertoire ist vielseitig und reicht von klassischer Musik über Musical und Jazz bis hin zu modernen Songs. Gemeinsam legen wir den musikalischen Rahmen fest – gefühlvoll, stilvoll und auf den Moment abgestimmt. Dabei gehe ich individuell auf Ihre Wünsche ein, um die Feier persönlich und einzigartig zu gestalten. Auch Wunschsongs setze ich gerne für Sie um und mache euren besonderen Moment damit unvergesslich.
+
+{{< /image-aside >}}
+
+{{< dark-section >}}
+{{< image-aside src="/img/collage.webp" alt="Cover Image" reverse=true imgWidth="55%">}}
+
+
+
+# Kundenstimmen
+
+- Sonja ist super!
+
+{{< /image-aside >}}
+{{< /dark-section >}}
+
+{{< image-aside src="/img/church.webp" alt="Cover Image" >}}
+
+## Fußzeile
+
+- Insta
+- Datenschutz
+- Kontakt
+
+{{< /image-aside >}}
+
+
