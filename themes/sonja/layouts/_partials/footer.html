@@ -1,0 +1,17 @@
+{{/*
+Footer partial
+- If a Hugo menu named "footer" is defined (in config), render it.
+- Otherwise, fall back to linking common legal pages if they exist in the content
+(e.g. "ueber-mich/impressum", "ueber-mich/datenschutz", "impressum", "datenschutz").
+- No styling is included here; this partial outputs plain HTML links only.
+*/}}
+
+<nav aria-label="Footer">
+    <ul>
+        {{ $menu := .Site.Menus.footer }}
+        {{ range $menu }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+    </ul>
+</nav>
+

@@ -64,12 +64,4 @@ Mein Repertoire ist vielseitig und reicht von klassischer Musik über Musical un
 
 {{< image-aside src="/img/church.webp" alt="Cover Image" >}}
 
-## Fußzeile
-
-- Insta
-- Datenschutz
-- Kontakt
-
-{{< /image-aside >}}
-
 
