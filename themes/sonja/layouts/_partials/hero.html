@@ -12,12 +12,13 @@
 <div class="hero-wrapper" role="img" aria-label="Sängerin mit Mikrofon auf einer Hochzeit">
   <div class="hero-overlay" aria-hidden="false">
 	<div class="hero-inner">
-	  <h1 class="hero-title">Sonja Eisenreich</h1>
-	  <p class="hero-subtitle">Live Gesang für Trauungen & feierliche Anlässe</p>
+	  <h1 class="hero-title">{{ or .Params.title .Title }}</h1>
+	  <p class="hero-subtitle">{{.Params.subtitle}}</p>
 
 	  <div class="hero-buttons">
-		<a class="btn btn-primary" href="#contact">Anfragen</a>
-		<a class="btn btn-secondary" href="#repertoire">Repertoire</a>
+			{{ range .Params.buttons }}
+				<a class="btn {{ .class }}" href="{{ .url }}">{{ .text }}</a>
+			{{ end }}
 	  </div>
 	</div>
   </div>

@@ -1,6 +1,11 @@
 ---
 title: "Impressum"
 menus: 'footer'
+params:
+  buttons:
+    - class: "btn-primary"
+      url: "/"
+      text: "Zurück"
 ---
 
 # Impressum
