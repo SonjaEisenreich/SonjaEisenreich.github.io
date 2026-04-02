@@ -63,5 +63,11 @@ Mein Repertoire ist vielseitig und reicht von klassischer Musik über Musical un
 {{< /dark-section >}}
 
 {{< image-aside src="/img/church.webp" alt="Cover Image" >}}
+## Hörbeispiele
 
+{{< audio src="/audio/falling-in-love.mp3" name="Falling in Love this title is reeaaaaaallly loong" >}}
+{{< audio src="/audio/falling-in-love.mp3" name="Falling in Love" >}}
+{{< audio src="/audio/falling-in-love.mp3" name="Falling in Love" >}}
+
+{{< /image-aside >}}
 
