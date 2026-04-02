@@ -11,3 +11,6 @@ theme = "sonja"
   url = "/"
   weight = 1
 
+[markup.goldmark.renderer]
+  unsafe= true
+

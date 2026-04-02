@@ -13,5 +13,6 @@ Renders an image to the side of the text.
          {{with $alt}}alt="{{.}}"{{end}}
          {{with $class}}class="{{.}}"{{end}}
          style="width: {{$imgWidth}}">
-    <div style="width: calc(100% - {{$imgWidth}})">{{ .Inner | .Page.RenderString (dict "display" "block") -}}</div>
+    {{ $opts := dict "display" "block" }}
+    <div style="width: calc(100% - {{$imgWidth}})">{{ .Inner | strings.TrimSpace | .Page.RenderString $opts -}}</div>
 </div>
