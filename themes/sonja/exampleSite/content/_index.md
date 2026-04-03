@@ -30,9 +30,9 @@ Hochzeit, Taufe, Geburtstag, Vereinsfeier
 
 {{< /image-aside >}}
 {{< /dark-section >}}
-{{< image-aside src="/img/church.webp" alt="Cover Image" >}}
+{{< image-aside src="/img/HochzeitAnnette_2.png" alt="Cover Image" >}}
 
-# Hörproben
+## Hörproben
 
 {{< audio src="/audio/falling-in-love.mp3" name="Falling in Love this title is reeaaaaaallly loong" >}}
 {{< audio src="/audio/falling-in-love.mp3" name="Falling in Love" >}}
@@ -53,7 +53,7 @@ Hochzeit, Taufe, Geburtstag, Vereinsfeier
 
 {{< /image-aside >}}
 {{< /dark-section >}}
-{{< image-aside src="/img/church.webp" alt="Cover Image" >}}
+{{< image-aside src="/img/AuftrittWaiblingen_1.jpg" alt="Cover Image" >}}
 
 ## Repertoire
 
@@ -66,7 +66,7 @@ Mein Repertoire ist vielseitig und reicht von klassischer Musik über Musical un
 
 
 
-# Kundenstimmen
+## Kundenstimmen
 
 - Sonja ist super!
 
