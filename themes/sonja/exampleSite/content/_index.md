@@ -22,7 +22,7 @@ Ich freue mich auf Ihre Anfrage!
 {{< /image-aside >}}
 
 {{< dark-section >}}
-{{< image-aside src="/img/collage.webp" alt="Cover Image" reverse=true imgWidth="55%">}}
+{{< image-aside src="/img/HochzeitJenny_2.png" alt="Cover Image" reverse=true imgWidth="35%">}}
 
 ## Für jeden Anlass die passende Musik
 
@@ -42,7 +42,7 @@ Hochzeit, Taufe, Geburtstag, Vereinsfeier
 
 
 {{< dark-section >}}
-{{< image-aside src="/img/collage.webp" alt="Cover Image" reverse=true imgWidth="55%">}}
+{{< image-aside src="/img/HochzeitJenny_4.png" alt="Cover Image" reverse=true imgWidth="45%">}}
 
 ## Warum ich die richtige Wahl bin
 
@@ -53,7 +53,7 @@ Hochzeit, Taufe, Geburtstag, Vereinsfeier
 
 {{< /image-aside >}}
 {{< /dark-section >}}
-{{< image-aside src="/img/AuftrittWaiblingen_1.jpg" alt="Cover Image" >}}
+{{< image-aside src="/img/Collage_Repertoire.png" alt="Cover Image" >}}
 
 ## Repertoire
 
@@ -62,7 +62,7 @@ Mein Repertoire ist vielseitig und reicht von klassischer Musik über Musical un
 {{< /image-aside >}}
 
 {{< dark-section >}}
-{{< image-aside src="/img/collage.webp" alt="Cover Image" reverse=true imgWidth="55%">}}
+{{< image-aside src="/img/Hochzeit_1.png" alt="Cover Image" reverse=true imgWidth="35%">}}
 
 
 
