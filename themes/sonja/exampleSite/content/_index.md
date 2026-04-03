@@ -22,7 +22,7 @@ Ich freue mich auf Ihre Anfrage!
 {{< /image-aside >}}
 
 {{< dark-section >}}
-{{< image-aside src="/img/HochzeitJenny_2.png" alt="Cover Image" reverse=true imgWidth="35%">}}
+{{< image-aside src="/img/HochzeitJenny_2.png" alt="Cover Image" reverse=true imgWidth="35%" resizeSpec="385x">}}
 
 ## Für jeden Anlass die passende Musik
 
@@ -42,7 +42,7 @@ Hochzeit, Taufe, Geburtstag, Vereinsfeier
 
 
 {{< dark-section >}}
-{{< image-aside src="/img/HochzeitJenny_4.png" alt="Cover Image" reverse=true imgWidth="45%">}}
+{{< image-aside src="/img/HochzeitJenny_4.png" alt="Cover Image" reverse=true imgWidth="45%" resizeSpec="495x">}}
 
 ## Warum ich die richtige Wahl bin
 
@@ -62,7 +62,7 @@ Mein Repertoire ist vielseitig und reicht von klassischer Musik über Musical un
 {{< /image-aside >}}
 
 {{< dark-section >}}
-{{< image-aside src="/img/Hochzeit_1.png" alt="Cover Image" reverse=true imgWidth="35%">}}
+{{< image-aside src="/img/Hochzeit_1.png" alt="Cover Image" reverse=true imgWidth="35%" resizeSpec="385x">}}
 
 
 
@@ -73,3 +73,11 @@ Mein Repertoire ist vielseitig und reicht von klassischer Musik über Musical un
 {{< /image-aside >}}
 {{< /dark-section >}}
 
+## Gallerie
+
+{{< gallery >}}
+img/HochzeitJenny_1.jpg
+img/HochzeitJenny_2.jpg
+img/HochzeitJenny_3.jpg
+img/HochzeitJenny_4.jpg
+{{< /gallery >}}

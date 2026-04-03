@@ -1,0 +1,35 @@
+.pswp__img {
+  object-fit: contain;
+}
+
+.photogallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style-type: none;
+}
+.photogallery::after {
+  content: "";
+  display: block;
+  flex-grow: 10;
+}
+.photogallery a {
+  flex-grow: 1;
+  height: 30ex;
+  margin: 0.2em;
+}
+.photogallery a img {
+  min-width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  font-family: "object-fit: cover;";
+}
+
+.photogallery a img.lazyload {
+  opacity: 0;
+}
+
+.photogallery a img.lazyload.loaded {
+  opacity: 1;
+}
