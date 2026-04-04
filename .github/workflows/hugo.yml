@@ -49,3 +49,4 @@ jobs:
           target: "/home/ubuntu/musik_eisenreichs_de/htdocs"
           strip_components: 1
           overwrite: true
+          rm: true
