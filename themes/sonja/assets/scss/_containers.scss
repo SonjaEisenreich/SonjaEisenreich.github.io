@@ -42,7 +42,7 @@ main {
   align-items: center;
 
   > div {
-    padding: 40px;
+    padding: 20px 40px;
   }
 }
 
@@ -100,6 +100,7 @@ nav ul {
 nav a {
   color: inherit;
   text-decoration: none;
+  line-height: 1;
 }
 
 nav a:hover,

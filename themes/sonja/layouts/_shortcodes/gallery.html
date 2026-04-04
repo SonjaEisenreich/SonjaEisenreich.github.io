@@ -3,8 +3,8 @@
   {{- range $lines }}
     {{- $src := . | strings.TrimSpace -}}
     {{- with resources.Get $src }}
-      <a href="{{ .RelPermalink }}" target="_blank">
-        {{- with .Resize "300x" }}
+      <a href="{{ (.Process "webp").RelPermalink }}" target="_blank">
+        {{- with .Resize "450x webp"}}
           <img class="lazyload" data-src="{{ .RelPermalink }}" loading="lazy"/>
         {{- else }}
           {{ errorf "Unable to resize resource: %s" . }}

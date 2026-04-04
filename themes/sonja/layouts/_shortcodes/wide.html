@@ -1,0 +1,4 @@
+<div class="content-element">
+  {{ $opts := dict "display" "block" }}
+  <div style="width: 100%">{{ .Inner | strings.TrimSpace | .Page.RenderString $opts -}}</div>
+</div>
