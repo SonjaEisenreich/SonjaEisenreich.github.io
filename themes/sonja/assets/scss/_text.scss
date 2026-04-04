@@ -1,0 +1,40 @@
+// Typography and text blocks
+.hero-inner {
+  text-align: center;
+  color: $color-text-primary;
+  padding: 1rem 1.25rem;
+}
+
+.hero-title {
+  margin: 0 0 0.25rem 0;
+  font-size: 2.25rem;
+  line-height: 1.05;
+
+  text-shadow:
+          $background-color 0 0 30px,
+          $background-color 0 0 30px,
+          $background-color 0 0 30px;
+}
+
+.hero-subtitle {
+  margin: 0 0 1rem 0;
+  font-size: 1.125rem;
+
+  text-shadow:
+          $background-color 0 0 30px,
+          $background-color 0 0 30px,
+          $background-color 0 0 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $color-text-primary;
+  padding: 0 10px;
+}
+
+p {
+  padding: 0 10px;
+}
+
+body {
+  color: $color-text-primary;
+}

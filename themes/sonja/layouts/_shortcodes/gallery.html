@@ -1,0 +1,27 @@
+<div class="photogallery pswp-gallery pswp-gallery--single-column" id="gallery--getting-started">
+  {{- $lines := split (strings.TrimSpace .Inner) "\n" -}}
+  {{- range $lines }}
+    {{- $src := . | strings.TrimSpace -}}
+    {{- with resources.Get $src }}
+      <a href="{{ (.Process "webp").RelPermalink }}" target="_blank">
+        {{- with .Resize "450x webp"}}
+          <img class="lazyload" data-src="{{ .RelPermalink }}" loading="lazy"/>
+        {{- else }}
+          {{ errorf "Unable to resize resource: %s" . }}
+        {{- end }}
+      </a>
+    {{- else }}
+      {{ errorf "Unable to find resource: %s" . }}
+    {{- end }}
+  {{- end }}
+</div>
+
+<script type="module">
+    import PhotoSwipeLightbox from '/js/photoswipe-lightbox.esm.min.js';
+    const lightbox = new PhotoSwipeLightbox({
+        gallery: '#gallery--getting-started',
+        children: 'a',
+        pswpModule: () => import('/js/photoswipe.esm.min.js')
+    });
+    lightbox.init();
+</script>

@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Split stylesheet into partials for clarity */
+@import "variables";
+@import "./_containers.scss";
+@import "./_text.scss";
+@import "./_buttons.scss";
+@import "./_audio.scss";
+@import "./_photos.scss";
+@import "./_responsiveness.scss";

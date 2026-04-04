@@ -1,3 +1,6 @@
 [submodule "themes/airspace"]
 	path = themes/airspace
 	url = https://github.com/themefisher/airspace-hugo.git
+[submodule "themes/hugo-split-theme"]
+	path = themes/hugo-split-theme
+	url = git@github.com:qw3ry/hugo-split-theme.git

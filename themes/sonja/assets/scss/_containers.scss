@@ -1,0 +1,113 @@
+// Containers and layout
+.hero-wrapper {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  background-image: url('/img/hero.webp');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  clip-path: url("#wave");
+  box-shadow: inset 0 -40px 80px -20px rgb(0, 0, 0);
+  padding: 0 calc((100% - #{$max-content-width}) / 2);
+  margin-bottom: -40px;
+}
+
+.hero-overlay {
+  width: 50%;
+  height: 420px;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+}
+
+body {
+  overflow-y: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+#content {
+  background-color: $background-color;
+}
+
+.content-element {
+  display: flex;
+  align-items: center;
+
+  > div {
+    padding: 20px 40px;
+  }
+}
+
+.hero-inner {
+  text-shadow: $background-color 0px 0px 30px;
+}
+
+article {
+  padding: 1rem;
+
+  > * {
+    max-width: $max-content-width;
+    /* center the article horizontally within its parent (.content) */
+    margin: 0 auto;
+  }
+}
+
+.rule {
+  width: 100%;
+  max-width: unset;
+  height: 1px;
+  background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.12) 15%, rgba(0, 0, 0, 0.12) 85%, transparent 100%);
+}
+
+.dark-section {
+  background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.04) 20%, rgba(0, 0, 0, 0.04) 80%, transparent 100%);
+  max-width: unset;
+
+  > * {
+    max-width: $max-content-width;
+    margin: 0 auto;
+  }
+}
+
+
+/* Footer styles */
+nav {
+  background-color: $footer-background-color;
+  color: $footer-color; /* light text */
+  padding: 1rem; /* breathing room */
+  border-top: 1px solid black;
+}
+
+nav ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+  line-height: 1;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+  opacity: 1;
+}

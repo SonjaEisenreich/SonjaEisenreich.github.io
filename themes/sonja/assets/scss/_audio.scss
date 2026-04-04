@@ -1,0 +1,189 @@
+.audio-controls.is-playing {
+  .play {
+    display: none;
+  }
+
+  .pause {
+    display: inline;
+  }
+}
+
+.audio-controls {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: $audio-background-color;
+  margin: 1ex 0;
+
+  > * {
+    margin: 0 0.5em;
+  }
+
+  svg {
+    width: 2em;
+    height: 2em;
+    vertical-align: -0.125em;
+
+    path {
+      fill: $audio-track-color;
+    }
+  }
+
+  button {
+    border: none;
+    background: transparent;
+    padding: 0;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+
+  .audio-title {
+    max-width: 40%;
+    overflow: hidden;
+  }
+
+  .seek-slider {
+    width: 50%;
+    flex-grow: 4;
+    flex-shrink: 1;
+  }
+
+  .volume-slider {
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 0;
+  }
+
+  .volume-controls {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .pause {
+    display: none;
+  }
+}
+
+input[type=range] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%; /* Specific width is required for Firefox. */
+  background: transparent; /* Otherwise white in Chrome */
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+
+  /* Hides the slider so custom styles can be added */
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+// THUMB STYLING
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid $audio-border-color;
+  height: $audio-thumb-size;
+  width: $audio-thumb-size;
+  border-radius: $audio-thumb-size / 2;
+  background: $audio-thumb-color;
+  cursor: pointer;
+  margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  box-shadow: 1px 1px 1px $audio-shadow-color, 0 0 1px $audio-shadow-color; /* Add cool effects to your sliders! */
+}
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px $audio-shadow-color, 0 0 1px $audio-shadow-color;
+  border: 1px solid $audio-border-color;
+  height: $audio-thumb-size;
+  width: $audio-thumb-size;
+  border-radius: $audio-thumb-size / 2;
+  background: $audio-thumb-color;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px $audio-shadow-color, 0 0 1px $audio-shadow-color;
+  border: 1px solid $audio-border-color;
+  height: $audio-thumb-size;
+  width: $audio-thumb-size;
+  border-radius: $audio-thumb-size / 2;
+  background: $audio-thumb-color;
+  cursor: pointer;
+}
+
+// TRACK STYLING
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: $audio-track-height;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px $audio-shadow-color, 0 0 1px $audio-shadow-color;
+  background: $audio-track-color;
+  border-radius: $audio-border-radius;
+  border: 1px solid $audio-border-color;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: $audio-track-color;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: $audio-track-height;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px $audio-shadow-color, 0 0 1px $audio-shadow-color;
+  background: $audio-track-color;
+  border-radius: $audio-border-radius;
+  border: 1px solid $audio-border-color;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: $audio-track-height;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: $audio-track-color;
+  border: 0.2px solid $audio-border-color;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px $audio-shadow-color, 0 0 1px $audio-shadow-color;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: $audio-track-color;
+}
+input[type=range]::-ms-fill-upper {
+  background: $audio-track-color;
+  border: 0.2px solid $audio-border-color;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px $audio-shadow-color, 0 0 1px $audio-shadow-color;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: $audio-track-color;
+}

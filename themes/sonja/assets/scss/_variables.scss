@@ -1,0 +1,26 @@
+// Color and asset variables
+$color-text-primary: #7a3333;
+$color-text-inverted: #7a3333;
+
+$background-color: #FFF7F4;
+$footer-background-color: $color-text-primary;
+$footer-color: $background-color;
+
+// Button colors
+$btn-primary-bg: rgba(255,255,255,0.95);
+$btn-border-rgba: rgba(255,255,255,0.85);
+
+// Sizes
+$max-content-width: 1000px;
+
+// Audio player
+$audio-background-color: rgb(234, 214, 203);
+
+$audio-track-color: #853000;
+$audio-thumb-color: #dd9875;
+$audio-border-color: #010101;
+$audio-shadow-color: #321100;
+
+$audio-track-height: 4px;
+$audio-thumb-size: 15px;
+$audio-border-radius: 5px;

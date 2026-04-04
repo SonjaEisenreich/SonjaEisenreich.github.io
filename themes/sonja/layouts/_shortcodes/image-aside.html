@@ -1,0 +1,27 @@
+{{- /*
+Renders an image to the side of the text.
+*/ -}}
+
+{{- $src := .Get "src" }}
+{{- $alt := or (.Get "alt") "" }}
+{{- $class := or (.Get "class") "" }}
+{{- $reverse := .Get "reverse" | default false }}
+{{- $imgWidth := .Get "imgWidth" | default "30%" }}
+{{- $resizeSpec := .Get "resizeSpec" | default "300x webp" }}
+
+<div class="content-element" {{with $reverse}}style="flex-direction: row-reverse;"{{end}}>
+
+    <img
+    {{ with resources.Get $src }}
+        {{- with .Resize $resizeSpec }}
+        src="{{ .RelPermalink }}"
+        {{- end }}
+    {{- else }}
+    src="{{$src}}"
+    {{- end }}
+    {{with $alt}}alt="{{.}}"{{end}}
+    {{with $class}}class="{{.}}"{{end}}
+    style="width: {{$imgWidth}}">
+    {{ $opts := dict "display" "block" }}
+    <div style="width: calc(100% - {{$imgWidth}})">{{ .Inner | strings.TrimSpace | .Page.RenderString $opts -}}</div>
+</div>
