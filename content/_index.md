@@ -11,7 +11,7 @@ params:
           text: "Kontakt"
 ---
 
-{{< image-aside src="/img/church.webp" alt="Cover Image" >}}
+{{< image-aside src="/img/HochzeitAnnette_2.png" alt="Cover Image" >}}
 
 # Herzlich willkommen!
 
@@ -22,25 +22,29 @@ Ich freue mich auf Ihre Anfrage!
 {{< /image-aside >}}
 
 {{< dark-section >}}
-{{< image-aside src="/img/HochzeitJenny_2.png" alt="Cover Image" reverse=true imgWidth="35%" resizeSpec="385x">}}
+{{< image-aside src="/img/HochzeitJenny_2.png" alt="Cover Image" reverse=true imgWidth="35%" resizeSpec="350x webp">}}
 
 ## Für jeden Anlass die passende Musik
 
-Hochzeit, Taufe, Geburtstag, Vereinsfeier
+Ich begleite seit über 10 Jahren alle Arten von Veranstaltungen.
+Dazu zählen natürlich Feiern wie Hochzeiten, Taufen, Geburtstage oder Vereinsfeiern, aber auch Beerdigungen, Kulturveranstaltungen und mehr.
+
+Bei Bedarf kann ich auch Begleitmusiker wie z.B. einen Pianisten organisieren.
 
 {{< /image-aside >}}
 {{< /dark-section >}}
-{{< image-aside src="/img/HochzeitAnnette_2.png" alt="Cover Image" >}}
 
-## Hörproben
+{{< wide >}}
+## Hörproben 
+
+Aus verschiedenen Gründen (Urheberrecht, Recording-Kosten, ...) habe ich nur wenige professionelle Aufnahmen.
+Wenn Sie deshalb unsicher sind, ob mein Stil zu Ihrer Veranstaltung passt, kontaktieren Sie mich gerne für weitere Informationen.
 
 {{< youtube youtubeId="cEFwclX8DUw" name="Falling in Love" >}}
-
-{{< /image-aside >}}
-
+{{< /wide >}}
 
 {{< dark-section >}}
-{{< image-aside src="/img/HochzeitJenny_4.png" alt="Cover Image" reverse=true imgWidth="45%" resizeSpec="495x">}}
+{{< image-aside src="/img/HochzeitJenny_4.png" alt="Cover Image" reverse=true imgWidth="45%" resizeSpec="450x webp">}}
 
 ## Warum ich die richtige Wahl bin
 
@@ -48,6 +52,7 @@ Hochzeit, Taufe, Geburtstag, Vereinsfeier
 - Individuelle Songauswahl 
 - Langjährige Erfahrung
 - Zuverlässig und professionell
+- Eigene Technik verfügbar
 
 {{< /image-aside >}}
 {{< /dark-section >}}
@@ -60,25 +65,36 @@ Mein Repertoire ist vielseitig und reicht von klassischer Musik über Musical un
 {{< /image-aside >}}
 
 {{< dark-section >}}
-{{< image-aside src="/img/Hochzeit_1.png" alt="Cover Image" reverse=true imgWidth="35%" resizeSpec="385x">}}
-
-
+{{< image-aside src="/img/Hochzeit_1.png" alt="Cover Image" reverse=true imgWidth="35%" resizeSpec="350x webp">}}
 
 ## Kundenstimmen
 
-*In ihrem zweiteiligen Programm präsentierte sie hauptsächlich Lieder aus Musicals, die aus verscheidenen Epochen stammten. Beeindruckend war ihre Sopranstimme, der sie mit ihrem Vibrato einen schönen Klang verlieh. Bei ihrem Auftritt begriff sie sich auch als vergnügliche Unterhalterin und verstand es geschickt, die verschiedenen Musikstücke durch ein perfektes und ungekünsteltes Entertainment miteinander zu verbinden.* <br>- Werner M. über das Mitarbeiterfest der Kirchengemeinde Weissacher Tal  
-
-
-
+*In ihrem zweiteiligen Programm präsentierte sie hauptsächlich Lieder aus Musicals, die aus verscheidenen Epochen 
+stammten. Beeindruckend war ihre Sopranstimme, der sie mit ihrem Vibrato einen schönen Klang verlieh. Bei ihrem 
+Auftritt begriff sie sich auch als vergnügliche Unterhalterin und verstand es geschickt, die verschiedenen Musikstücke 
+durch ein perfektes und ungekünsteltes Entertainment miteinander zu verbinden.* <br>
+&ndash; Werner M. über das Mitarbeiterfest der Kirchengemeinde Weissacher Tal  
 
 {{< /image-aside >}}
 {{< /dark-section >}}
 
+{{< wide >}}
 ## Gallerie
 
 {{< gallery >}}
 img/HochzeitJenny_1.jpg
-img/HochzeitJenny_2.jpg
+img/AuftrittWeissach.jpg
+img/AuftrittBigBand_1.jpg
+img/AuftrittWaiblingen_1.JPG
+img/HochzeitAnnette_1.JPG
+img/HochzeitAnnette_2.JPG
+img/StadtkapelleFellbach_1.jpg
+img/StadtkapelleFellbach_2.jpg
 img/HochzeitJenny_3.jpg
+img/HochzeitJenny_2.jpg
 img/HochzeitJenny_4.jpg
+img/HochzeitKöngen.jpg
+img/WinnendenLiest.jpg
+img/StadtkapelleFellbach_3.jpg
 {{< /gallery >}}
+{{< /wide >}}

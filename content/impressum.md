@@ -1,6 +1,8 @@
 ---
 title: "Impressum"
-menus: 'footer'
+menus:
+  footer:
+    weight: 100
 params:
   buttons:
     - class: "btn-primary"

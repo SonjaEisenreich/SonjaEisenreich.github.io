@@ -6,9 +6,9 @@ theme = "sonja"
 [params]
   description = "Demo site for wedding-singer theme"
 
-[[menu.main]]
-  name = "Home"
-  url = "/"
+[[menu.footer]]
+  name = "🔗 Instagram"
+  url = "https://www.instagram.com/saengerin_sonja/"
   weight = 1
 
 [markup.goldmark.renderer]
