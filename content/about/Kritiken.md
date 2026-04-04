@@ -1,4 +1,0 @@
-+++
-menus = "main"
-title = "Kritiken"
-+++
