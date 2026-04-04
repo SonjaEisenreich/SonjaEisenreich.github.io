@@ -34,9 +34,7 @@ Hochzeit, Taufe, Geburtstag, Vereinsfeier
 
 ## Hörproben
 
-{{< audio src="/audio/falling-in-love.mp3" name="Falling in Love this title is reeaaaaaallly loong" >}}
-{{< audio src="/audio/falling-in-love.mp3" name="Falling in Love" >}}
-{{< audio src="/audio/falling-in-love.mp3" name="Falling in Love" >}}
+{{< youtube youtubeId="cEFwclX8DUw" name="Falling in Love" >}}
 
 {{< /image-aside >}}
 
