@@ -1,5 +1,5 @@
 ---
-title: "Sonja Eisenreich"
+title: "Sonja Maria Eisenreich"
 params:
     subtitle: "Live Gesang für Trauungen & feierliche Anlässe"
     buttons: 
@@ -7,8 +7,8 @@ params:
           url: "#hörproben"
           text: "Hörproben"
         - class: "btn-secondary"
-          url: "#repertoire"
-          text: "Repertoire"
+          url: "/kontakt"
+          text: "Kontakt"
 ---
 
 {{< image-aside src="/img/church.webp" alt="Cover Image" >}}
@@ -68,7 +68,10 @@ Mein Repertoire ist vielseitig und reicht von klassischer Musik über Musical un
 
 ## Kundenstimmen
 
-- Sonja ist super!
+*In ihrem zweiteiligen Programm präsentierte sie hauptsächlich Lieder aus Musicals, die aus verscheidenen Epochen stammten. Beeindruckend war ihre Sopranstimme, der sie mit ihrem Vibrato einen schönen Klang verlieh. Bei ihrem Auftritt begriff sie sich auch als vergnügliche Unterhalterin und verstand es geschickt, die verschiedenen Musikstücke durch ein perfektes und ungekünsteltes Entertainment miteinander zu verbinden.* <br>- Werner M. über das Mitarbeiterfest der Kirchengemeinde Weissacher Tal  
+
+
+
 
 {{< /image-aside >}}
 {{< /dark-section >}}
