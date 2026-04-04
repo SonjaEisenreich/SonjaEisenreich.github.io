@@ -1,0 +1,60 @@
+@media (max-width: 1000px) {
+  .hero-overlay {
+    width: 70%;
+  }
+}
+
+
+@media (max-width: 700px) {
+    .content-element {
+        flex-direction: column-reverse !important;
+
+        > div {
+            width: 100% !important;
+        }
+
+      > img {
+        max-height: 150px;
+        width: auto !important;
+        margin-bottom: 20px;
+      }
+    }
+
+  .hero-overlay {
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding: 0 20px;
+    padding-top: 40px;
+    background-color: $footer-background-color;
+    color: $footer-color;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+    .hero-title {
+      color: $footer-color;
+      text-shadow: none;
+    }
+
+    .hero-subtitle {
+      color: $footer-color;
+      text-shadow: none;
+    }
+
+    .btn-secondary {
+      background: $background-color;
+    }
+  }
+
+  .hero-wrapper {
+    background-position: 55% top;
+    max-height: 300px;
+    z-index: 100;
+    //clip-path: url(#wave-mobile);
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-wrapper {
+    background-position: 60% top;
+  }
+}

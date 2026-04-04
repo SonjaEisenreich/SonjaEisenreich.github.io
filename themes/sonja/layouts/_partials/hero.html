@@ -8,18 +8,27 @@
       C0.2,0.9 0,0.9 0,0.9
       Z" />
 	</clipPath>
+	<clipPath id="wave-mobile" clipPathUnits="objectBoundingBox">
+		<path d="
+      M0,0
+      H1
+      V0.6
+      C0.8,0.65 0.6,0.65 0.4,0.6
+      C0.2,0.55 0,0.575 0,0.575
+      Z" />
+	</clipPath>
 </svg>
 <div class="hero-wrapper" role="img" aria-label="Sängerin mit Mikrofon auf einer Hochzeit">
-  <div class="hero-overlay" aria-hidden="false">
+</div>
+<div class="hero-overlay" aria-hidden="false">
 	<div class="hero-inner">
-	  <h1 class="hero-title">{{ or .Params.title .Title }}</h1>
-	  <p class="hero-subtitle">{{.Params.subtitle}}</p>
+		<h1 class="hero-title">{{ or .Params.title .Title }}</h1>
+		<p class="hero-subtitle">{{.Params.subtitle}}</p>
 
-	  <div class="hero-buttons">
+		<div class="hero-buttons">
 			{{ range .Params.buttons }}
-				<a class="btn {{ .class }}" href="{{ .url }}">{{ .text }}</a>
+			<a class="btn {{ .class }}" href="{{ .url }}">{{ .text }}</a>
 			{{ end }}
-	  </div>
+		</div>
 	</div>
-  </div>
 </div>
