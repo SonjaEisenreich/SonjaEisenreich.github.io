@@ -47,3 +47,4 @@ jobs:
           key: ${{ secrets.SCP_PRIVATE_KEY }}
           source: "public/"
           target: "/home/ubuntu/musik_eisenreichs_de/htdocs"
+          strip_components: 1
