@@ -10,7 +10,7 @@ Shortcode parameters:
 
 <iframe src='https://www.youtube-nocookie.com/embed/{{.Get "youtubeId"}}?fs=0&playsinline=1&rel=0'
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-        title='{{- .Get "name"}}' class="youtube-player" id="youtube-{{ $uniqueId }}" loading="lazy" style="opacity: 0">
+        title='{{- .Get "name"}}' class="youtube-player" id="youtube-{{ $uniqueId }}" loading="lazy" style="height: 0">
 </iframe>
 <div id="youtube-alttext-{{ $uniqueId }}">
   Dieses Video konnte nicht geladen werden. Sie können es direkt auf YouTube ansehen:
@@ -23,6 +23,6 @@ Shortcode parameters:
 
     iframe.addEventListener('load', () => {
         fallback.hidden = true;
-        iframe.style.opacity = "1";
+        iframe.style.height = "";
     });
 </script>
