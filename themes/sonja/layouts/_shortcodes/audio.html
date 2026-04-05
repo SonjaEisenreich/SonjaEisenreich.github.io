@@ -20,7 +20,7 @@ Shortcode parameters:
 {{- $src := cond (hasPrefix $src "http") $src ($src | absURL) -}}
 
 {{/* create a unique id for this player instance so controls can be targeted */}}
-{{- $id := printf "audio-%d" (now.UnixNano) -}}
+{{- $id := printf "audio-%d" .Ordinal -}}
 
 <div class="audio-controls" data-audio-id="{{ $id }}" data-src="{{ $src }}" role="group" aria-label="Audio controls">
   <button type="button" class="audio-btn audio-play" data-action="play" aria-label="Play / Pause">

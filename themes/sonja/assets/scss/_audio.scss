@@ -1,32 +1,11 @@
-// YOUTUBE PLAYER
 .youtube-player {
-  position: relative;
-
-  > * {
-    width: 500px;
-    max-width: 100%;
-    margin: 0 10px;
-    aspect-ratio: 16 / 9;
-    display: block;
-    border-radius: 20px;
-    z-index: 100;
-    position: inherit;
-  }
-
-  div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    z-index: 50;
-
-    span {
-      text-align: center;
-    }
-  }
+  width: 500px;
+  max-width: 100%;
+  margin: 0 10px;
+  aspect-ratio: 16 / 9;
+  display: block;
+  border-radius: 20px;
 }
-
 
 .audio-controls.is-playing {
   .play {

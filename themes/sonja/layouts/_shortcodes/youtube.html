@@ -6,13 +6,23 @@ Shortcode parameters:
 
 {{ $youtubeId := .Get "youtubeId" }}
 {{ $youtubeLink := printf "https://www.youtube.com/watch?v=%s" $youtubeId }}
+{{ $uniqueId := printf "%d" .Ordinal -}}
 
-<div class="youtube-player">
-  <iframe src='https://www.youtube-nocookie.com/embed/{{.Get "youtubeId"}}?fs=0&playsinline=1&rel=0'
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-          title='{{- .Get "name"}}'>
-  </iframe>
-  <div><span>Could not load YouTube video. You can watch it on YouTube instead:
-    <a href="{{$youtubeLink}}" target="_blank">{{$youtubeLink}}</a>.
-  </span></div>
+<iframe src='https://www.youtube-nocookie.com/embed/{{.Get "youtubeId"}}?fs=0&playsinline=1&rel=0'
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+        title='{{- .Get "name"}}' class="youtube-player" id="youtube-{{ $uniqueId }}" loading="lazy" style="opacity: 0">
+</iframe>
+<div id="youtube-alttext-{{ $uniqueId }}">
+  Dieses Video konnte nicht geladen werden. Sie können es direkt auf YouTube ansehen:
+  <a href="{{$youtubeLink}}" target="_blank">{{$youtubeLink}}</a>.
 </div>
+
+<script>
+    const iframe = document.getElementById('youtube-{{ $uniqueId }}');
+    const fallback = document.getElementById('youtube-alttext-{{ $uniqueId }}');
+
+    iframe.addEventListener('load', () => {
+        fallback.hidden = true;
+        iframe.style.opacity = "1";
+    });
+</script>
