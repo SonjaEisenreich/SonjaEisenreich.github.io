@@ -4,8 +4,25 @@ Shortcode parameters:
 - name (optional): title
 */ -}}
 
-<iframe style="width: 500px; max-width: 100%; margin: 0 10px; aspect-ratio: 16 / 9; display: block; border-radius: 20px"
-        width="100%" height="100%"
-        src="https://www.youtube-nocookie.com/embed/{{.Get "youtubeId"}}?fs=0&playsinline=1&rel=0"
+{{ $youtubeId := .Get "youtubeId" }}
+{{ $youtubeLink := printf "https://www.youtube.com/watch?v=%s" $youtubeId }}
+{{ $uniqueId := printf "%d" .Ordinal -}}
+
+<iframe src='https://www.youtube-nocookie.com/embed/{{.Get "youtubeId"}}?fs=0&playsinline=1&rel=0'
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-        title="{{- .Get "name"}}"></iframe>
+        title='{{- .Get "name"}}' class="youtube-player" id="youtube-{{ $uniqueId }}" loading="lazy" style="height: 0">
+</iframe>
+<div id="youtube-alttext-{{ $uniqueId }}">
+  Dieses Video konnte nicht geladen werden. Sie können es direkt auf YouTube ansehen:
+  <a href="{{$youtubeLink}}" target="_blank">{{$youtubeLink}}</a>.
+</div>
+
+<script>
+    const iframe = document.getElementById('youtube-{{ $uniqueId }}');
+    const fallback = document.getElementById('youtube-alttext-{{ $uniqueId }}');
+
+    iframe.addEventListener('load', () => {
+        fallback.hidden = true;
+        iframe.style.height = "";
+    });
+</script>

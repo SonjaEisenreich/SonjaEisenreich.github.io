@@ -1,3 +1,12 @@
+.youtube-player {
+  width: 500px;
+  max-width: 100%;
+  margin: 0 10px;
+  aspect-ratio: 16 / 9;
+  display: block;
+  border-radius: 20px;
+}
+
 .audio-controls.is-playing {
   .play {
     display: none;
@@ -169,21 +178,25 @@ input[type=range]::-ms-track {
   border-width: 16px 0;
   color: transparent;
 }
+
 input[type=range]::-ms-fill-lower {
   background: $audio-track-color;
   border: 0.2px solid $audio-border-color;
   border-radius: 2.6px;
   box-shadow: 1px 1px 1px $audio-shadow-color, 0 0 1px $audio-shadow-color;
 }
+
 input[type=range]:focus::-ms-fill-lower {
   background: $audio-track-color;
 }
+
 input[type=range]::-ms-fill-upper {
   background: $audio-track-color;
   border: 0.2px solid $audio-border-color;
   border-radius: 2.6px;
   box-shadow: 1px 1px 1px $audio-shadow-color, 0 0 1px $audio-shadow-color;
 }
+
 input[type=range]:focus::-ms-fill-upper {
   background: $audio-track-color;
 }

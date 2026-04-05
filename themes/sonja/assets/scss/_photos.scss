@@ -12,11 +12,14 @@
   content: "";
   display: block;
   flex-grow: 10;
+  min-width: 30%; // prevent a weird almost-full line at the end
 }
 .photogallery a {
   flex-grow: 1;
   height: 30ex;
   margin: 0.2em;
+  max-height: 15vh;
+  max-width: calc(50% - 0.4em);
 }
 .photogallery a img {
   min-width: 100%;
@@ -24,6 +27,7 @@
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  object-position: 50% 20%;
   font-family: "object-fit: cover;";
 }
 
