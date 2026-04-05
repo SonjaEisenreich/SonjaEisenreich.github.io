@@ -15,9 +15,9 @@ params:
 
 # Herzlich willkommen!
 
-Ich bin Sonja, Sängerin aus Leidenschaft! Für mich ist Musik die schönste Sprache der Welt und eine wundervolle Art, Emotionen auszudrücken. Deshalb begleite ich seit Jahren mit viel Freude Feste wie Hochzeiten, Taufen, oder auch Vereinsfeiern.
-Lassen Sie uns gemeinsam einen musikalischen Rahmen für Ihre Feier schaffen und ihrem Fest eine ganz persönliche Note geben.
-Ich freue mich auf Ihre Anfrage!
+Musik ist die schönste Sprache der Welt! Sie macht Gefühle hörbar und spürbar. Sie berührt und schafft wunderschöne Erinnerungen.
+Als ausgebildete Sängerin mit Erfahrung im Eventbereich freue ich mich darauf, auch Ihr Event musikalisch zu begleiten. Sei es mit gefühlvollen Balladen, oder mit schwungvollen Gute-Laune-Songs. Gemeinsam finden wir für Ihren Anlass die passende Musik.
+Gerne stehe ich Ihnen beratend zur Seite, wenn es um die Auswahl und die Platzierung der Songs geht. Melden Sie sich gerne und wir planen gemeinsam, wie ich Ihre musikalischen Wünsche verwirklichen kann.
 
 {{< /image-aside >}}
 
@@ -60,7 +60,7 @@ Wenn Sie deshalb unsicher sind, ob mein Stil zu Ihrer Veranstaltung passt, konta
 
 ## Repertoire
 
-Mein Repertoire ist vielseitig und reicht von klassischer Musik über Musical und Jazz bis hin zu modernen Songs. Gemeinsam legen wir den musikalischen Rahmen fest – gefühlvoll, stilvoll und auf den Moment abgestimmt. Dabei gehe ich individuell auf Ihre Wünsche ein, um die Feier persönlich und einzigartig zu gestalten. Auch Wunschsongs setze ich gerne für Sie um und mache euren besonderen Moment damit unvergesslich.
+Mein Repertoire ist vielseitig und reicht von klassischer Musik über Musical und Jazz bis hin zu modernen Songs. Gemeinsam legen wir den musikalischen Rahmen fest – gefühlvoll, stilvoll und auf den Moment abgestimmt. Dabei gehe ich individuell auf Ihre Wünsche ein, um die Feier persönlich und einzigartig zu gestalten.
 
 {{< /image-aside >}}
 
