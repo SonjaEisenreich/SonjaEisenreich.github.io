@@ -1,0 +1,74 @@
+// Contact form styling
+.contact-form {
+  width: 100%;
+  padding: 0 10px;
+
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: .35rem;
+  }
+
+  .contact-form__row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .contact-form__row--two {
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: .65rem .75rem;
+    border-radius: 8px;
+    border: 1px solid transparentize($border-color, 0.3);
+    color: $color-text-primary;
+    font-size: 0.95rem;
+    resize: vertical;
+  }
+
+  input:focus, textarea:focus {
+    outline: none;
+    border-color: $border-color;
+    box-shadow: 0 4px 18px rgba(132, 48, 0, 0.06);
+  }
+
+  .error-message {
+    color: #b00020;
+    font-size: .875rem;
+    margin-top: .35rem;
+    display: none;
+  }
+
+  .is-invalid {
+    border-color: $border-color !important;
+  }
+
+  .is-invalid + .error-message {
+    display: block;
+  }
+
+  .btn-form {
+    background: white;
+  }
+
+  .btn-form[disabled] {
+    opacity: .6;
+    cursor: not-allowed;
+  }
+}
+
+.contact-form-placeholder {
+  font-size: 0.95rem;
+  color: rgba(122, 51, 51, 0.85);
+}
+

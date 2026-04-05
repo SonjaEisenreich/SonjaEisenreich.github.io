@@ -1,0 +1,111 @@
+<form class="contact-form" id="contactForm" action="https://api.staticforms.dev/submit" method="POST" novalidate
+      aria-describedby="form-status">
+  <!-- Required: Your API Key -->
+  <input type="hidden" name="apiKey" value="sf_532704d7c7bee4a060ff5161"/>
+  <input type="hidden" name="redirectTo" value="https://musik.eisenreichs.de/nachricht-gesendet"/>
+
+  <!-- Form Fields -->
+  <div class="contact-form__row contact-form__row--two">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required aria-required="true"/>
+      <div class="error-message" id="err-name">Bitte geben Sie Ihren Namen ein.</div>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required aria-required="true"/>
+      <div class="error-message" id="err-email">Bitte geben Sie eine gültige E-Mail-Adresse ein.</div>
+    </div>
+  </div>
+
+  <div class="contact-form__row">
+    <div>
+      <label for="phone">Telefon (optional)</label>
+      <input type="tel" id="phone" name="phone" inputmode="tel"/>
+      <div class="error-message" id="err-phone">Bitte geben Sie eine gültige Telefonnummer ein.</div>
+    </div>
+  </div>
+
+  <div class="contact-form__row">
+    <div>
+      <label for="message">Nachricht</label>
+      <textarea id="message" name="message" rows="10" required aria-required="true"></textarea>
+      <div class="error-message" id="err-message">Bitte geben Sie eine Nachricht ein.</div>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary btn-form" id="contactSubmit">
+    <span id="submitText">Abschicken</span>
+  </button>
+</form>
+
+<script>
+    (function () {
+        // Simple client-side validation and UX helpers
+        var form = document.getElementById('contactForm');
+        if (!form) return;
+
+        var fields = {
+            name: {
+                el: form.querySelector('#name'), validator: function (v) {
+                    return v.trim().length > 0;
+                }
+            },
+            email: {
+                el: form.querySelector('#email'), validator: function (v) {
+                    return /\S+@\S+\.\S+/.test(v);
+                }
+            },
+            phone: {
+                el: form.querySelector('#phone'), validator: function (v) {
+                    return v.trim() === '' || /^[0-9()+\s-]{6,}$/.test(v);
+                }
+            },
+            message: {
+                el: form.querySelector('#message'), validator: function (v) {
+                    return v.trim().length > 4;
+                }
+            }
+        };
+
+        function setError(field, msg) {
+            var el = fields[field].el;
+            var err = document.getElementById('err-' + field);
+            if (msg) {
+                el.classList.add('is-invalid');
+                if (err) err.textContent = msg;
+            } else {
+                el.classList.remove('is-invalid');
+            }
+        }
+
+        function validateAll() {
+            var ok = true;
+            Object.keys(fields).forEach(function (k) {
+                var value = fields[k].el.value || '';
+                var valid = fields[k].validator(value);
+                if (!valid) {
+                    ok = false;
+                    setError(k, document.getElementById('err-' + k).textContent);
+                } else {
+                    setError(k, '');
+                }
+            });
+            return ok;
+        }
+
+        // live validation
+        Object.keys(fields).forEach(function (k) {
+            var el = fields[k].el;
+            el.addEventListener('input', function () {
+                var valid = fields[k].validator(el.value || '');
+                setError(k, valid ? '' : document.getElementById('err-' + k).textContent);
+            });
+        });
+
+        form.addEventListener('submit', function (e) {
+            if (!validateAll()) {
+                e.preventDefault();
+            }
+        });
+    })();
+</script>

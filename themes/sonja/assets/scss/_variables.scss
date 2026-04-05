@@ -6,6 +6,8 @@ $background-color: #FFF7F4;
 $footer-background-color: $color-text-primary;
 $footer-color: $background-color;
 
+$border-color: transparentize($color-text-primary, 0.3);
+
 // Button colors
 $btn-primary-bg: rgba(255,255,255,0.95);
 $btn-border-rgba: rgba(255,255,255,0.85);
