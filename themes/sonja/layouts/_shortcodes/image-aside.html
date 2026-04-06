@@ -11,14 +11,7 @@ Renders an image to the side of the text.
 
 <div class="content-element" {{with $reverse}}style="flex-direction: row-reverse;"{{end}}>
 
-    <img
-    {{ with resources.Get $src }}
-        {{- with .Resize $resizeSpec }}
-        src="{{ .RelPermalink }}"
-        {{- end }}
-    {{- else }}
-    src="{{$src}}"
-    {{- end }}
+    <img src="{{- partial "img-resize.html" (dict "src" $src "resizeSpec" $resizeSpec) }}"
     {{with $alt}}alt="{{.}}"{{end}}
     {{with $class}}class="{{.}}"{{end}}
     style="width: {{$imgWidth}}">

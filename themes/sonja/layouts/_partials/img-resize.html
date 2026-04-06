@@ -1,0 +1,11 @@
+{{- $src := .src }}
+{{- $resizeSpec := .resizeSpec }}
+{{- with resources.Get $src }}
+{{- with .Resize $resizeSpec }}
+{{- .RelPermalink }}
+{{- else }}
+{{- $src}}
+{{- end }}
+{{- else }}
+{{- $src}}
+{{- end }}
