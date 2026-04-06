@@ -3,11 +3,6 @@ title: "Kontakt"
 menus:
   footer:
     weight: 1
-params:
-    buttons:
-      - class: "btn-primary"
-        url: "/"
-        text: "Zurück"
 ---
 
 {{< wide >}}

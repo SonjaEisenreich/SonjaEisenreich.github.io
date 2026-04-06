@@ -1,6 +1,7 @@
 ---
 title: "Nachricht gesendet"
 params:
+    headline: "Nachricht gesendet"
     buttons:
       - class: "btn-primary"
         url: "/"

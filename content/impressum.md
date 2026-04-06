@@ -4,10 +4,11 @@ menus:
   footer:
     weight: 100
 params:
+  subtitle: Versehentlich hier gelandet? Hier geht's wieder zurück.
   buttons:
-    - class: "btn-primary"
+    - class: "btn-secondary"
       url: "/"
-      text: "Zurück"
+      text: "Zurück zur Website"
 ---
 
 # Impressum

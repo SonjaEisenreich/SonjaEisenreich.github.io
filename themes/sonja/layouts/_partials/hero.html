@@ -20,9 +20,10 @@
 </svg>
 <div class="hero-wrapper" role="img" aria-label="Sängerin mit Mikrofon auf einer Hochzeit" style="background-image: url('{{(resources.Get "/img/hero.webp").RelPermalink}}');">
 </div>
+{{ if or .Params.title .Params.subtitle .Params.buttons }}
 <div class="hero-overlay" aria-hidden="false">
 	<div class="hero-inner">
-		<h1 class="hero-title">{{ or .Params.title .Title }}</h1>
+		<h1 class="hero-title">{{.Params.headline}}</h1>
 		<p class="hero-subtitle">{{.Params.subtitle}}</p>
 
 		<div class="hero-buttons">
@@ -32,3 +33,4 @@
 		</div>
 	</div>
 </div>
+{{ end }}

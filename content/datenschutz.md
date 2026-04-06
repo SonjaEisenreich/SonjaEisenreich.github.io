@@ -4,10 +4,11 @@ menus:
   footer:
     weight: 100
 params:
-    buttons:
-      - class: "btn-primary"
-        url: "/"
-        text: "Zurück"
+  subtitle: Versehentlich hier gelandet? Hier geht's wieder zurück.
+  buttons:
+  - class: "btn-secondary"
+    url: "/"
+    text: "Zurück zur Website"
 ---
 
 <div>

@@ -1,6 +1,7 @@
 ---
 title: "Sonja Maria Eisenreich"
 params:
+    headline: "Sonja Maria Eisenreich"
     subtitle: "Live Gesang für Trauungen & feierliche Anlässe"
     buttons: 
         - class: "btn-primary"
