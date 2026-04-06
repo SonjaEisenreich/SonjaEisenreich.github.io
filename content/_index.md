@@ -12,18 +12,18 @@ params:
           text: "Kontakt"
 ---
 
-{{< image-aside src="/img/HochzeitAnnette_2.png" alt="Cover Image" >}}
+{{< image-aside src="/img/HochzeitJenny_2.png" alt="Cover Image" >}}
 
 # Herzlich willkommen!
 
 Musik ist die schönste Sprache der Welt! Sie macht Gefühle hörbar und spürbar. Sie berührt und schafft wunderschöne Erinnerungen.
-Als ausgebildete Sängerin mit Erfahrung im Eventbereich freue ich mich darauf, auch Ihr Event musikalisch zu begleiten. Sei es mit gefühlvollen Balladen, oder mit schwungvollen Gute-Laune-Songs. Gemeinsam finden wir für Ihren Anlass die passende Musik.
-Gerne stehe ich Ihnen beratend zur Seite, wenn es um die Auswahl und die Platzierung der Songs geht. Melden Sie sich gerne und wir planen gemeinsam, wie ich Ihre musikalischen Wünsche verwirklichen kann.
+Als ausgebildete Sängerin mit Erfahrung im Eventbereich freue ich mich darauf, auch Ihr Event musikalisch zu begleiten. Sei es mit gefühlvollen Balladen, schwungvollen Gute-Laune-Songs, oder klassischen Stücken. Gemeinsam finden wir für Ihren Anlass die passende Musik.
+Gerne stehe ich Ihnen beratend zur Seite, wenn es um die Auswahl und die Platzierung der Songs geht. Melden Sie sich gerne und wir planen, wie ich Ihre musikalischen Wünsche verwirklichen kann.
 
 {{< /image-aside >}}
 
 {{< dark-section >}}
-{{< image-aside src="/img/HochzeitJenny_2.png" alt="Cover Image" reverse=true imgWidth="35%" resizeSpec="350x webp">}}
+{{< image-aside src="/img/StadtkapelleFellbach_2.png" alt="Cover Image" reverse=true imgWidth="35%" resizeSpec="350x webp">}}
 
 ## Für jeden Anlass die passende Musik
 
@@ -66,6 +66,13 @@ Mein Repertoire ist vielseitig und reicht von klassischer Musik über Musical un
 {{< /image-aside >}}
 
 {{< dark-section >}}
+{{< wide >}}
+## Kontakt
+
+Sind Sie überzeugt? Haben Sie noch Fragen? Ich freue mich, von Ihnen zu hören! Hier geht's zum <a href="/kontakt">Kontaktformular</a>.
+
+{{< /wide >}}
+{{< /dark-section >}}
 {{< image-aside src="/img/Hochzeit_1.png" alt="Cover Image" reverse=true imgWidth="35%" resizeSpec="350x webp">}}
 
 ## Kundenstimmen
@@ -77,7 +84,8 @@ durch ein perfektes und ungekünsteltes Entertainment miteinander zu verbinden.*
 &ndash; Werner M. über das Mitarbeiterfest der Kirchengemeinde Weissacher Tal  
 
 {{< /image-aside >}}
-{{< /dark-section >}}
+
+{{< dark-section >}}
 
 {{< wide >}}
 ## Gallerie
@@ -99,3 +107,5 @@ img/WinnendenLiest.jpg
 img/StadtkapelleFellbach_3.jpg
 {{< /gallery >}}
 {{< /wide >}}
+
+{{< /dark-section >}}
