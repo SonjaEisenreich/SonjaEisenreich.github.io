@@ -8,12 +8,12 @@
   <div class="contact-form__row contact-form__row--two">
     <div>
       <label for="name">Name</label>
-      <input type="text" id="name" name="name" required aria-required="true"/>
+      <input type="text" id="name" name="name" required aria-required="true" placeholder="Max Muster"/>
       <div class="error-message" id="err-name">Bitte geben Sie Ihren Namen ein.</div>
     </div>
     <div>
       <label for="email">Email</label>
-      <input type="email" id="email" name="email" required aria-required="true"/>
+      <input type="email" id="email" name="email" required aria-required="true" placeholder="max.muster@example.com"/>
       <div class="error-message" id="err-email">Bitte geben Sie eine gültige E-Mail-Adresse ein.</div>
     </div>
   </div>
@@ -21,21 +21,24 @@
   <div class="contact-form__row">
     <div>
       <label for="phone">Telefon (optional)</label>
-      <input type="tel" id="phone" name="phone" inputmode="tel"/>
-      <div class="error-message" id="err-phone">Bitte geben Sie eine gültige Telefonnummer ein.</div>
+      <input type="tel" id="phone" name="phone" inputmode="tel" placeholder="(0)1234 567890"/>
     </div>
   </div>
 
   <div class="contact-form__row">
     <div>
       <label for="message">Nachricht</label>
-      <textarea id="message" name="message" rows="10" required aria-required="true"></textarea>
+      <textarea id="message" name="message" rows="10" required aria-required="true"
+                placeholder="Ich suche eine Sängerin für die klassische, romantische Umrahmung unserer Trauung am 11. Mai. Können wir kommende Woche näheres telefonisch Besprechen? Wir suchen auch noch nach guten Ideen für passende Stücke, aber 'unser Song' steht schon fest."></textarea>
       <div class="error-message" id="err-message">Bitte geben Sie eine Nachricht ein.</div>
     </div>
   </div>
   <button type="submit" class="btn btn-primary btn-form" id="contactSubmit">
     <span id="submitText">Abschicken</span>
   </button>
+  <a href="/" class="btn btn-secondary btn-form">
+    Zurück
+  </a>
 </form>
 
 <script>
@@ -53,11 +56,6 @@
             email: {
                 el: form.querySelector('#email'), validator: function (v) {
                     return /\S+@\S+\.\S+/.test(v);
-                }
-            },
-            phone: {
-                el: form.querySelector('#phone'), validator: function (v) {
-                    return v.trim() === '' || /^[0-9()+\s-]{6,}$/.test(v);
                 }
             },
             message: {

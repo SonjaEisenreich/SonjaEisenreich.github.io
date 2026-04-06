@@ -6,6 +6,14 @@ body {
   box-sizing: border-box;
 }
 
+button {
+  all: unset;
+}
+
+input, textarea {
+  font-family: unset;
+}
+
 /* Split stylesheet into partials for clarity */
 @import "variables";
 @import "./_containers.scss";
