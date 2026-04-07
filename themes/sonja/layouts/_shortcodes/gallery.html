@@ -3,7 +3,11 @@
   {{- range $lines }}
     {{- $src := . | strings.TrimSpace -}}
     {{- with resources.Get $src }}
-      <a href="{{ (.Process "webp").RelPermalink }}" target="_blank">
+      <a href='{{ (.Process "webp").RelPermalink }}'
+         data-pswp-width="{{ .Width }}"
+         data-pswp-height="{{ .Height }}"
+         data-cropped="true"
+         target="_blank">
         {{- with .Resize "450x webp"}}
           <img class="lazyload" data-src="{{ .RelPermalink }}" loading="lazy"/>
         {{- else }}
@@ -18,10 +22,12 @@
 
 <script type="module">
     import PhotoSwipeLightbox from '/js/photoswipe-lightbox.esm.min.js';
+    import ObjectPosition from '/js/photoswipe-object-position.js';
     const lightbox = new PhotoSwipeLightbox({
         gallery: '#gallery--getting-started',
         children: 'a',
         pswpModule: () => import('/js/photoswipe.esm.min.js')
     });
+    new ObjectPosition(lightbox);
     lightbox.init();
 </script>
