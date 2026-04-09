@@ -17,7 +17,7 @@ params:
 # Herzlich willkommen!
 
 Musik ist die schönste Sprache der Welt! Sie macht Gefühle hörbar und spürbar. Sie berührt und schafft wunderschöne Erinnerungen.
-Als ausgebildete Sängerin mit Erfahrung im Eventbereich freue ich mich darauf, auch Ihr Event musikalisch zu begleiten. Sei es mit gefühlvollen Balladen, schwungvollen Gute-Laune-Songs, oder klassischen Stücken. Gemeinsam finden wir für Ihren Anlass die passende Musik.
+Als ausgebildete Sängerin aus dem Raum Stuttgart mit Erfahrung im Eventbereich freue ich mich darauf, auch Ihr Event musikalisch zu begleiten. Sei es mit gefühlvollen Balladen, schwungvollen Gute-Laune-Songs, oder klassischen Stücken. Gemeinsam finden wir für Ihren Anlass die passende Musik.
 Gerne stehe ich Ihnen beratend zur Seite, wenn es um die Auswahl und die Platzierung der Songs geht. Melden Sie sich gerne und wir planen, wie ich Ihre musikalischen Wünsche verwirklichen kann.
 
 {{< /image-aside >}}
@@ -82,6 +82,9 @@ stammten. Beeindruckend war ihre Sopranstimme, der sie mit ihrem Vibrato einen s
 Auftritt begriff sie sich auch als vergnügliche Unterhalterin und verstand es geschickt, die verschiedenen Musikstücke 
 durch ein perfektes und ungekünsteltes Entertainment miteinander zu verbinden.* <br>
 &ndash; Werner M. über das Mitarbeiterfest der Kirchengemeinde Weissacher Tal  
+
+Sonja hat bei unserer Hochzeitszeremonie gesungen und es war absolut fantastisch! Sie war super organisiert und hat die gesamte Tontechnik selbst mitgebracht und aufgebaut. Und singen kann sie!* <br>
+&ndash; Annette B.
 
 {{< /image-aside >}}
 
