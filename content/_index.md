@@ -83,7 +83,7 @@ Auftritt begriff sie sich auch als vergnügliche Unterhalterin und verstand es g
 durch ein perfektes und ungekünsteltes Entertainment miteinander zu verbinden.* <br>
 &ndash; Werner M. über das Mitarbeiterfest der Kirchengemeinde Weissacher Tal  
 
-Sonja hat bei unserer Hochzeitszeremonie gesungen und es war absolut fantastisch! Sie war super organisiert und hat die gesamte Tontechnik selbst mitgebracht und aufgebaut. Und singen kann sie!* <br>
+*Sonja hat bei unserer Hochzeitszeremonie gesungen und es war absolut fantastisch! Sie war super organisiert und hat die gesamte Tontechnik selbst mitgebracht und aufgebaut. Und singen kann sie!* <br>
 &ndash; Annette B.
 
 {{< /image-aside >}}
