@@ -7,6 +7,18 @@
   border-radius: 20px;
 }
 
+.iframe-block {
+  background-color: rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  p {
+    text-align: center;
+  }
+  button {
+    width: fit-content;
+  }
+}
+
 .audio-controls.is-playing {
   .play {
     display: none;
