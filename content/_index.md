@@ -30,7 +30,7 @@ Gerne stehe ich Ihnen beratend zur Seite, wenn es um die Auswahl und die Platzie
 Ich begleite seit über 10 Jahren alle Arten von Veranstaltungen.
 Dazu zählen natürlich Feiern wie Hochzeiten, Taufen, Geburtstage oder Vereinsfeiern, aber auch Beerdigungen, Kulturveranstaltungen und mehr.
 
-Bei Bedarf kann ich auch Begleitmusiker wie z.B. einen Pianisten organisieren.
+Üblicherweise trete ich mit Plybacks auf. Bei Bedarf kann ich auch Begleitmusiker wie z.B. einen Pianisten organisieren, oder mich mit einem Musiker bzw. einer Musikerin Ihrer Wahl zusammenschließen.
 
 {{< /image-aside >}}
 {{< /dark-section >}}
