@@ -17,7 +17,7 @@ params:
 # Herzlich willkommen!
 
 Musik ist die schönste Sprache der Welt! Sie macht Gefühle hörbar und spürbar. Sie berührt und schafft wunderschöne Erinnerungen.
-Als ausgebildete Sängerin aus dem Raum Stuttgart mit Erfahrung im Eventbereich freue ich mich darauf, auch Ihr Event musikalisch zu begleiten. Sei es mit gefühlvollen Balladen, schwungvollen Gute-Laune-Songs, oder klassischen Stücken. Gemeinsam finden wir für Ihren Anlass die passende Musik.
+Als ausgebildete Sängerin aus dem Raum Stuttgart mit Erfahrung im Eventbereich freue ich mich darauf, auch Ihr Event musikalisch zu begleiten. Sei es mit gefühlvollen Balladen, schwungvollen Gute-Laune-Songs oder klassischen Stücken. Gemeinsam finden wir für Ihren Anlass die passende Musik.
 Gerne stehe ich Ihnen beratend zur Seite, wenn es um die Auswahl und die Platzierung der Songs geht. Melden Sie sich gerne und wir planen, wie ich Ihre musikalischen Wünsche verwirklichen kann.
 
 {{< /image-aside >}}
@@ -30,7 +30,7 @@ Gerne stehe ich Ihnen beratend zur Seite, wenn es um die Auswahl und die Platzie
 Ich begleite seit über 10 Jahren alle Arten von Veranstaltungen.
 Dazu zählen natürlich Feiern wie Hochzeiten, Taufen, Geburtstage oder Vereinsfeiern, aber auch Beerdigungen, Kulturveranstaltungen und mehr.
 
-Üblicherweise trete ich mit Plybacks auf. Bei Bedarf kann ich auch Begleitmusiker wie z.B. einen Pianisten organisieren, oder mich mit einem Musiker bzw. einer Musikerin Ihrer Wahl zusammenschließen.
+Üblicherweise trete ich mit Playbacks auf. Auf Ihren Wunsch hin kann ich aber auch Begleitmusiker wie z.B. einen Pianisten organisieren, oder mich mit einem Musiker bzw. einer Musikerin Ihrer Wahl zusammentun.
 
 {{< /image-aside >}}
 {{< /dark-section >}}
