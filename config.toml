@@ -1,5 +1,5 @@
 baseURL = "http://example.org/"
-languageCode = "de-de"
+locale = "de-de"
 title = "Wedding Singer Demo"
 theme = "sonja"
 
