@@ -14,30 +14,36 @@ params:
 
 {{< image-aside src="/img/HochzeitJenny_2_flip_links.png" alt="Cover Image" imgWidth="60%" resizeSpec="500x webp">}}
 
-# Herzlich willkommen!
+# Gefühlvolle Livemusik für besondere Anlässe
 
-**Musik** ist die schönste Sprache der Welt! Sie macht Gefühle hörbar und spürbar. Sie berührt und schafft wunderschöne Erinnerungen.
-Als **ausgebildete Sängerin** aus dem Raum **Stuttgart** mit über 10 Jahren Erfahrung im Eventbereich freue ich mich darauf, auch Euer Event musikalisch zu begleiten. Sei es mit gefühlvollen Balladen, schwungvollen Gute-Laune-Songs oder klassischen Stücken. **Gemeinsam** finden wir für Euren Anlass die **passende Musik**.
-Gerne stehe ich beratend zur Seite, wenn es um die Auswahl und die Platzierung der Songs geht.
+**Musik** ist die schönste Sprache der Welt! Durch sie kann man Emotionen hören und Erinnerungen zum Leben erwecken.<br>
+
+Als **ausgebildete Sängerin** aus dem Raum **Stuttgart** begleite ich seit über 10 Jahren Veranstaltungen mit gefühlvollen Balladen, schwungvollen Gute-Laune-Songs oder klassischen Stücken. <br>
+
+**Gemeinsam** finden wir stimmige Musik für eure Feier.
+
 
 {{< /image-aside >}}
 
 {{< dark-section >}}
 {{< image-aside src="/img/StadtkapelleFellbach_2_rechts.png" alt="Cover Image" reverse=true imgWidth="60%" resizeSpec="500x webp">}}
 
-## Für jeden Anlass die passende Musik
+## Für jedes Event die passende Musik
 
-Ich begleite
+Egal ob...
 - Hochzeiten
 - Taufen
 - Geburtstage
 - Vereinsfeiern
 - Beerdigungen
-- Kulturveranstaltungen
-- und mehr!
+- Kulturveranstaltungen<br>
 
+...bei mir seid ihr in guten Händen.
 
-Üblicherweise trete ich mit **Playbacks** auf. Auf Wunsch hin kann ich aber auch Begleitmusiker wie z.B. einen Pianisten organisieren, oder mich mit einem Musiker bzw. einer Musikerin Eurer Wahl zusammentun.
+Einen konkreten Plan können wir gerne gemeinsam ausarbeiten. Schreibt mir gerne eine kurze Nachricht.
+
+Hier kommt ein Kontakt-Button hin!
+
 
 {{< /image-aside >}}
 {{< /dark-section >}}
@@ -46,7 +52,10 @@ Ich begleite
 
 ## Repertoire
 
-Mein Repertoire ist vielseitig und reicht von **klassischer Musik** über **Musical** und **Jazz** bis hin zu **modernen Songs**. Gemeinsam legen wir den musikalischen Rahmen fest – gefühlvoll, stilvoll und auf den Moment abgestimmt. Dabei gehe ich **individuell** auf Eure Wünsche ein, um die Feier persönlich und einzigartig zu gestalten.
+Mein Repertoire ist vielseitig und reicht von **klassischer Musik** über **Musical** und **Jazz** bis hin zu **modernen Songs**. Gemeinsam legen wir den musikalischen Rahmen fest – gefühlvoll, stilvoll und auf den Moment abgestimmt. Dabei gehe ich **individuell** auf eure Wünsche ein, um die Feier persönlich und einzigartig zu gestalten.
+
+Üblicherweise trete ich mit **Playbacks** auf. Auf Wunsch hin kann ich aber auch Begleitmusiker wie z.B. einen Pianisten organisieren, oder mich mit einem Musiker bzw. einer Musikerin Eurer Wahl zusammentun.
+
 
 {{< /image-aside >}}
 
@@ -55,7 +64,7 @@ Mein Repertoire ist vielseitig und reicht von **klassischer Musik** über **Musi
 {{< dark-section >}}
 {{< image-aside src="/img/HochzeitJenny_4_zoom_rund.png" alt="Cover Image" reverse=true imgWidth="50%" resizeSpec="500x webp">}}
 
-## Warum Ihr bei mir in den richtigen Händen seid?
+## Warum Ihr bei mir in den richtigen Händen seid? (Überarbeiten)
 
 Ihr bekommt das **Rundum-Sorglos-Paket** mit
 
@@ -78,9 +87,10 @@ Hier könnt Ihr euch einen Eindruck von meiner Stimme und meinem Stil machen.
 
 {{< dark-section >}}
 {{< wide >}}
-## Kontakt
+## Kontakt 
 
 Seid Ihr überzeugt? Sind noch Fragen offen? Ich freue mich, von Euch zu hören! Hier geht's zum <a href="/kontakt">Kontaktformular</a>.
+KANN WEG
 
 {{< /wide >}}
 {{< /dark-section >}}
@@ -93,6 +103,9 @@ Seid Ihr überzeugt? Sind noch Fragen offen? Ich freue mich, von Euch zu hören!
 
 *Sonja hat bei unserer Hochzeitszeremonie gesungen und es war absolut fantastisch! Sie war super organisiert und hat die gesamte Tontechnik selbst mitgebracht und aufgebaut. Und singen kann sie!* <br>
 &ndash; Annette B.
+
+
+Button: Jetzt Anfragen
 
 {{< /image-aside >}}
 
