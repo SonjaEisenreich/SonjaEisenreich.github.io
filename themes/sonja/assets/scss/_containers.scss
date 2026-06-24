@@ -42,14 +42,15 @@ main {
 .content-element {
   display: flex;
   align-items: center;
+  gap: 20px;
 
   > div {
-    padding: 20px 0;
+    padding: 10px 0;
   }
 
-  > img {
-    padding: 20px 0;
-  }
+  //> img {
+    //padding: 20px 0;
+  //}
 }
 
 .hero-inner {
